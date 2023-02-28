@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Timetable</title>
+    <style>
+        table, th, td {
+            border: 3px solid white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            border-collapse: collapse;
+            padding: 20px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 125%;
+        }
+        table {
+            margin: 20px;
+        }
+        body {
+            background-color: lightslategray;
+            margin: 0;
+        }
+        header {
+            background-color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header nav li {
+            margin: 15px;
+        }
+        header nav a {
+            color: lightslategray;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 200%;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 750%;
+            margin: 50px;
+            margin-top: 100px;
+        }
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            padding: 3px;
+            background-color: white;
+            color: lightslategray;
+        }
+        footer h2 {
+            color: lightslategray; 
+            font-size: 125%;
+        }
+        .methods {
+            background-color: lightskyblue;
+        }
+        .gym {
+            background-color: lightblue;
+        }
+        .computer {
+            background-color: lightsteelblue;
+        }
+        .sport {
+            background-color: deepskyblue;
+        }
+        .english {
+            background-color: mediumturquoise;
+        }
+        .physics {
+            background-color: powderblue;
+        }
+        .connect {
+            background-color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <header><nav>
+        <ul>
+          <li><a href="#title">Title</a></li>
+          <li><a href="#timetable">Timetable</a></li>
+          <li><a href="index.html">Main Page</a></li>
+          <li><a href="AWholeNewPage.html">My Subjects</a></li>
+        </ul>
+    </nav></header>
+    <h1 id="title">My Timetable</h1>
+    <table id="timetable">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>Period 1</td>
+            <td class="methods">PREMETHA - C04</td>
+            <td class="gym">PERFITG - GYM</td>
+            <td class="computer">COMPUTB - D04</td>
+            <td class="sport">SPORTCOMPA - SCSTEPS</td>
+            <td class="english">ENGPREPC - A01</td>
+        </tr>
+        <tr>
+            <td>Connect</td>
+            <td></td>
+            <td></td>
+            <td class="connect">CONFLEHLE - GS1</td>
+            <td></td>
+            <td class="connect">CONFLEHLE - GS1</td>
+        </tr>
+        <tr>
+            <td>Period 2</td>
+            <td class="computer">COMPUTB - D04</td>
+            <td class="sport">SPORTCOMPA - SCSTEPS</td>
+            <td class="gym">PERFITG - GYM</td>
+            <td class="english">ENGPREPC - A01</td>
+            <td class="gym">PERFITG - GYM</td>
+        </tr>
+        <tr>
+            <td>Period 3</td>
+            <td class="physics">PREPHYA - A07</td>
+            <td class="methods">PREMETHA - C04</td>
+            <td class="english">ENGPREPC - A01</td>
+            <td class="physics">PREPHYA - PHYSICS</td>
+            <td class="computer">COMPUTB - D04</td>
+        </tr>
+        <tr>
+            <td>Period 4</td>
+            <td class="sport">SPORTCOMPA - SCSTEPS</td>
+            <td class="physics">PREPHYA - GS1</td>
+            <td></td>
+            <td class="methods">PREMETHA - C04</td>
+            <td></td>
+        </tr>
+    </table>
+    <footer>
+        <h2>Help</h2>
+    </footer>
+</body>
+</html>
