@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Page</title>
+</head>
+<style>
+    #bcolor {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        transition: background-color 2s;
+    }
+    #bcolor:hover {
+        background-color: blue;
+    }
+    #color {
+        color: black;
+        transition: color 2s;
+        font-size: 50px;
+    }
+    #color:hover {
+        color: blue;
+    }
+    #size {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        transition: background-color 2s,height 2s, width 2s;
+    }
+    #size:hover {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+    #all {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        line-height: 100px;
+        margin-top: 10px;
+        transition: line-height 2s, color 2s, background-color 2s, height 2s, width 2s;
+    }
+    #all:hover {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        line-height: 200px;
+        color: white;
+    }
+</style>
+<body>
+    <div id="bcolor"></div>
+    <div id="color"><p>Text Color</p></div>
+    <div id="size"></div>
+    <div id="all">All</div>
+    <div id="final"></div>
+</body>
+</html>
