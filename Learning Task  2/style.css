@@ -10,6 +10,10 @@ header {
     width: 100%;
     left: 0;
 }
+header nav {
+    float: right;
+    margin-left: 10px;
+}
 header nav ul {
     display: flex;
     justify-content: center;
@@ -23,7 +27,6 @@ header nav li {
 header nav a {
     color: #89cff0;
     text-decoration: none;
-    text-align: center;
     font-size: 50px;
 }
 div:hover {
@@ -60,4 +63,25 @@ footer {
     width: 100%;
     overflow: auto;
     left: 0;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    line-height: 50px;
+}
+#Logo {
+    width: 250px;
+}
+#potatocakes {
+    width: 600px;
+}
+#fish {
+    width: 600px;
+}
+#milkshake {
+    width: 600px;
 }
