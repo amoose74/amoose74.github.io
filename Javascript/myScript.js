@@ -11,3 +11,15 @@ function disappear() {
 function getRandInt(min,max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
+function getName() {
+    let text;
+    let userName = prompt("Enter ya name bozo", "Squiggle Face");
+    if (userName == null || userName == "") {
+        text = "Mate, I said enter ya name";
+    }
+    else {
+        alert("Really?? Ya parents named ya " + userName + "??")
+        text = "Really?? Ya parents named ya " + userName + "??";
+    }
+    document.getElementById("text").innerHTML = text;
+}

@@ -3,10 +3,15 @@
     height: 100px;
     background-color: black;
     margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: animateText;
+    animation-duration: 60s;
 }
 body {
     background-color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 #button {
     background-color: black;
@@ -18,3 +23,21 @@ body {
     display: inline-block;
     font-size: 16px;
 }
+#text {
+    color: black;
+    font-size: 30px;
+}
+@keyframes animateText{
+    0% {color: rgb(16, 25, 148); font-size: 40%;}
+    10% {color: rgb(144, 165, 197); font-size: 20%;}
+    20% {color: rgb(25, 15, 79); font-size: 70%;}
+    30% {color: rgb(212, 211, 173); font-size: 60%;}
+    40% {color: rgb(212, 255, 0); font-size: 90%;}
+    50% {color: rgb(255, 234, 0); font-size: 20%;}
+    60% {color: rgb(0, 0, 0); font-size: 40%;}
+    70% {color: rgb(46, 141, 75); font-size: 10%;}
+    80% {color: rgb(13, 56, 63); font-size: 80%;}
+    90% {color: rgb(119, 219, 140); font-size: 50%;}
+    100% {color: rgb(113, 22, 58); font-size: 80%;}
+}
+
