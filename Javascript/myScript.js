@@ -23,3 +23,7 @@ function getName() {
     }
     document.getElementById("text").innerHTML = text;
 }
+function getRedValue() {
+    redValue = document.getElementById('red').value;
+    console.log(redValue)
+}
