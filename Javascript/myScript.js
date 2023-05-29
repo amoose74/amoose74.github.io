@@ -1,3 +1,4 @@
+let red, green, blue;
 function reappear() {
     document.getElementById('block').style.display = 'block';
     var redRGB = getRandInt(0 , 255);
@@ -23,6 +24,29 @@ function getName() {
     }
     document.getElementById("text").innerHTML = text;
 }
-changeColor() {
-
+function changeColour(colourVal) {
+    let inputValue = document.getElementById(colourVal).value;
+    if (!isNaN(inputValue) && inputValue < 256 && inputValue >= 0)
+    {
+        switch(colourVal)
+        {
+            case "red":
+                red = inputValue;
+                break;
+            case "green":
+                green = inputValue;
+                break;
+            case "blue":
+                blue = inputValue;
+                break;    
+        }
+    }
+    else
+    {
+        document.getElementById(colourVal).style.backgroundColor = 'red';
+    }
+    if (red != null && blue != null && green != null)
+    {
+        document.getElementById('block').style.backgroundColor = "rgb("+red+","+green+","+blue+")";
+    }
 }
