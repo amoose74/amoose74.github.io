@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(2, 13, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+}
+.textBox {
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(2, 13, 31);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.answer {
+    margin-left: 300px;
+    margin-right: 300px;
+}
